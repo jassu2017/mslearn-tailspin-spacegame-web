@@ -1,9 +1,4 @@
 pool:
-- task: AzureAppServiceManage@0
-  inputs:
-    azureSubscription: 'Free Trial ()'
-    Action: 'Start Azure App Service'
-    WebAppName: 'mslearn-tailspin-spacegame-web'
   vmImage: 'Ubuntu-16.04'
   demands:
     - npm
