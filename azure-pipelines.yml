@@ -1,7 +1,7 @@
 pool:
 - task: AzureAppServiceManage@0
   inputs:
-    azureSubscription: 'Free Trial (bc2ce294-77f9-4431-b8eb-1ba3c46576c8)'
+    azureSubscription: 'Free Trial ()'
     Action: 'Start Azure App Service'
     WebAppName: 'mslearn-tailspin-spacegame-web'
   vmImage: 'Ubuntu-16.04'
